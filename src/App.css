@@ -1,0 +1,31 @@
+.one{
+    min-height: 100vh;
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+}
+.search-form{
+    min-height: 10vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.search-bar{
+    width: 40%;
+    border:none;
+    padding:10px;
+    transition:1s ease-in-out;
+}
+.search-bar:focus{
+    width:50%;
+    border: 1px solid black;
+}
+.search-button{
+    background: lightskyblue;
+    border:none;
+    padding:10px 20px;
+    color:white;
+}
+.recipe{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
